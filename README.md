@@ -2,15 +2,10 @@
 Marketing page for the ride for life app.
 # Ride for Life Landing Page
 
-##Mission Statement
+## Mission Statement
 To provide pregnant women in Uganda with access to safe and expeditious transport, so that they may reach a health facility when they are ready to deliver.
-###Description
+### Description
 This application is designed to help solve a problem that pregnant women in Uganda have encountered for far too long. It is a significant issue involving the lack of transportation that these women face while in labor, about to deliver their child. The majority of people in Uganda do not own transportation. Most travel is done on foot. This means that a woman in labor must walk for an hour or more in most cases, to reach a health care facility. We aim to change that.
-
-
-
-
-
 
 ##Features
 - Contains two user types: Mother or Caregiver, and Driver
