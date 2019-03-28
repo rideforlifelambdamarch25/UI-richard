@@ -10,10 +10,6 @@ body {
   margin: 0 auto;
   max-width: 1000px;
 }
-img {
-  max-width: 100%;
-  height: auto;
-}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
@@ -143,15 +139,28 @@ table {
   border-spacing: 0;
 }
 .container {
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 .container header {
-  background-color: #4C6A2D;
+  background-color: #4c6a2d;
   text-align: center;
   border-radius: 20px;
   height: 500px;
   margin-top: 20px;
   padding-top: 10px;
+}
+.container header .sign-up {
+  width: 20%;
+  margin-left: 40%;
+  border: 3px solid greenyellow;
+  border-radius: 15px;
+  font-size: 2rem;
+  padding: 5px 0;
+  background-color: yellow;
+}
+.container header .sign-up a:hover {
+  border-radius: 10px;
+  background-color: #4c6a2d;
 }
 .container header nav {
   display: flex;
@@ -162,7 +171,7 @@ table {
   color: darkorange;
 }
 .container header .top-img {
-  margin-top: 30px;
+  margin-top: 20px;
   width: 80%;
   height: 75%;
   border-radius: 30px;
@@ -176,15 +185,17 @@ table {
 .container header h1 {
   color: yellow;
   font-size: 7rem;
+  padding-left: 0;
 }
 .container header h3 {
   color: orange;
   font-size: 1.6rem;
+  margin-bottom: 1%;
 }
 .container .middle-content {
   display: flex;
   justify-content: space-between;
-  margin-top: 150px;
+  margin-top: 180px;
 }
 @media (max-width: 500px) {
   .container .middle-content {
@@ -199,7 +210,7 @@ table {
 .container .lower-content {
   display: flex;
   flex-direction: row-reverse;
-  margin-top: 15px;
+  margin-top: 25px;
 }
 .container .lower-content .lower-img {
   width: 45%;
@@ -209,10 +220,18 @@ table {
 .container .lower-content .text-content {
   width: 60%;
   padding-right: 100px;
+  padding-left: 20px;
+}
+@media (max-width: 500px) {
+  .container .lower-content .text-content {
+    width: 60%;
+    margin-left: 20px;
+  }
 }
 .container .text-content {
   width: 85%;
-  padding-left: 40px;
+  padding-left: 30px;
+  padding-right: 20px;
 }
 .container p {
   font-size: 1.5rem;
@@ -242,7 +261,7 @@ table {
   height: 300px;
   width: 100%;
   border-radius: 20px;
-  border: 4px solid #4C6A2D;
+  border: 4px solid #4c6a2d;
   margin-bottom: 40px;
   margin-top: 40px;
 }
@@ -251,4 +270,54 @@ table {
   height: 50%;
   margin-left: 10%;
   margin-top: 30px;
+}
+.about {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+  font-size: 1.5rem;
+  background-color: whitesmoke;
+}
+.about header {
+  height: 16%;
+  background-color: #4c6a2d;
+  border-radius: 20px;
+  margin-top: 20px;
+}
+.about header h1 {
+  font-size: 4rem;
+  padding-top: 35px;
+  padding-left: 350px;
+  color: yellow;
+}
+.about img {
+  border-radius: 20px;
+}
+.about .project-manager {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 5%;
+  color: orange;
+}
+.about .managers {
+  margin-left: 45%;
+}
+.about .front-end {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about .team-lead {
+  margin-left: 50%;
+  margin-bottom: 5%;
+  color: orange;
+}
+.about .links li {
+  margin: 0;
+}
+.about li {
+  margin-top: 10%;
+  color: orange;
+}
+.about .front-end {
+  color: orange;
 }
